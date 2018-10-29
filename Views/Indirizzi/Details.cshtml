@@ -1,0 +1,48 @@
+@model ProvaAnagrafica.Models.Indirizzo
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Indirizzo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeIndirizzo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomeIndirizzo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Città)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Città)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Nazione)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nazione)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CAP)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CAP)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Anagrafica)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Anagrafica.AnagraficaId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.IndirizzoId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
