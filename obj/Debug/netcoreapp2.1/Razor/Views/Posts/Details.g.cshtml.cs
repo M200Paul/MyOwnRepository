@@ -124,7 +124,7 @@ using ProvaAnagrafica.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(710, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c56bc86a4e704c91a0f49606b610857d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2dcfa45808b144ce855b242e23285a31", async() => {
                 BeginContext(760, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -159,7 +159,7 @@ using ProvaAnagrafica.Models;
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(776, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e909054bb30644a58c32becea1562a0a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c43203023ed94f6aa8e6bfe79f9d4ab2", async() => {
                 BeginContext(798, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();

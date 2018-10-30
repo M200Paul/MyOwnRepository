@@ -23,13 +23,13 @@
             @Html.DisplayFor(model => model.Cognome)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.AnnoNascita)
+            Data di nascita
         </dt>
         <dd>
             @Html.DisplayFor(model => model.AnnoNascita)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.CodiceFiscale)
+            Codice fiscale
         </dt>
         <dd>
             @Html.DisplayFor(model => model.CodiceFiscale)
@@ -41,8 +41,7 @@
             @Html.DisplayFor(model => model.Sesso)
         </dd>
     </dl>
-</div>
-<div>
+    
     <a asp-action="Edit" asp-route-id="@Model.AnagraficaId">Modifica</a> |
     <a asp-action="Index">Indietro</a>
 </div>

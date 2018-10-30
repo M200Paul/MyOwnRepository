@@ -13,7 +13,7 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="NomeIndirizzo" class="control-label"></label>
+                <label asp-for="NomeIndirizzo" class="control-label">Nome indirizzo</label>
                 <input asp-for="NomeIndirizzo" class="form-control" />
                 <span asp-validation-for="NomeIndirizzo" class="text-danger"></span>
             </div>
@@ -33,7 +33,7 @@
                 <span asp-validation-for="CAP" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="AnagraficaId" class="control-label"></label>
+                <label asp-for="AnagraficaId" class="control-label">ID Anagrafica</label>
                 <select asp-for="AnagraficaId" class ="form-control" asp-items="ViewBag.AnagraficaId"></select>
             </div>
             <div class="form-group">
