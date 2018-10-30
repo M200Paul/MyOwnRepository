@@ -2,8 +2,18 @@
     color: red;
     border-bottom: 6px solid red;
     background-color: rgb(228, 220, 220);
+    font-family: lane;
 }
 
 .stilelink{
     font-style: italic;
+}
+
+@font-face{
+    font-family: lane;
+    src: url("/fonts/lane.ttf");
+}
+
+.sottotitolo{
+    font-family: lane;
 }
